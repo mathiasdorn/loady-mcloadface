@@ -1,7 +1,7 @@
 
 # Loady McLoadface
 
-![Loadface](https://github.com/mttn/tools/blob/master/loady-mcloadface/img/lmlf-logo.png?raw=true)
+![Loadface](https://github.com/mttn/loady-mcloadface/blob/master/readme-logo.png?raw=true)
 
 
 Loady McLoadface is a collection of loading animations. All animations are based on HTML and CSS only. Since there are no dependencies to external resources, you can easily adjust the styles and add them to your project.
