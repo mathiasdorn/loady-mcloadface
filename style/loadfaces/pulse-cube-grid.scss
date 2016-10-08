@@ -1,0 +1,32 @@
+@import 'helper';
+@import 'loadface-config';
+
+.pulse-cube-grid {
+  height: $loadface-size;
+  width: $loadface-size;
+  .pulse-cube {
+    height: 33%;
+    width: 33%;
+    float: left;
+    background-color: $first-color;
+    animation: pulse-cube 1.3s infinite ease-in-out;
+  }
+  .cube1 { animation-delay: 0.2s; }
+  .cube2 { animation-delay: 0.3s; }
+  .cube3 { animation-delay: 0.4s; }
+  .cube4 { animation-delay: 0.1s; }
+  .cube5 { animation-delay: 0.2s; }
+  .cube6 { animation-delay: 0.3s; }
+  .cube7 { animation-delay: 0s; }
+  .cube8 { animation-delay: 0.1s; }
+  .cube9 { animation-delay: 0.2s; }
+}
+
+@keyframes pulse-cube {
+  0%, 70%, 100% {
+    transform: scale3D(1, 1, 1);
+  }
+  35% {
+    transform: scale3D(0, 0, 1);
+  }
+} 

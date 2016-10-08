@@ -1,6 +1,8 @@
 $body-bg-color: #f9f9f9;
 $intro-bg-color: #387F71;
-$single-bg-color: #1abc9c;
+$single-element-bg-color: #1abc9c;
+$multi-element-bg-color: #1CCCA9;
+
 
 body {
   font-family: 'Roboto', sans-serif;
@@ -33,8 +35,12 @@ h1, h2 {
   text-transform: uppercase;
 }
 
-.simple-container {
-  background-color: $single-bg-color;
+.single-element-container {
+  background-color: $single-element-bg-color;
+}
+
+.multi-element-container {
+  background-color: $multi-element-bg-color;
 }
 
 .loadface-container {
